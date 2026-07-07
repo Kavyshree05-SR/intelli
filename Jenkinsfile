@@ -11,7 +11,7 @@ pipeline {
         stage('SCM Pull') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Tapasvigowda/newproject.git'
+                    url: 'https://github.com/Kavyshree05-SR/intelli.git'
             }
         }
 
